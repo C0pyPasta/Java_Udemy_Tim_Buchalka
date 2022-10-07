@@ -7,18 +7,18 @@ public class Main {
         int levelCompleted = 5;
         int bonus = 100;
 
-        int highscore = calculateScore(gameOver, score, levelCompleted, bonus); //Tussen de haakjes zijn de argumenten die je stuurt
+        int highscore = calculateScore(gameOver, score, levelCompleted, bonus);
         System.out.println("Your final score was "+ highscore);
 
         score = 10000;
         levelCompleted = 8;
         bonus = 200;
 
-        highscore = calculateScore(gameOver, score, levelCompleted, bonus); //Tussen de haakjes zijn de argumenten die je stuurt
+        highscore = calculateScore(gameOver, score, levelCompleted, bonus);
         System.out.println("Your final score was "+ highscore);
 
         //CHALLENGE
-        String playerName = "Rudi";
+        String playerName = "Barry";
         int position = 1;
         displayHighScorePosition(playerName, position);
 
@@ -27,9 +27,9 @@ public class Main {
 
     }
 
-    public static int calculateScore(boolean gameOver, int score, int levelCompleted,int bonus) {  //calculateScore(boolean gameOver, int score, int levelCompleted,int bonus) tussen sde haakjes zijn de parameters
+    public static int calculateScore(boolean gameOver, int score, int levelCompleted,int bonus) {
 
-        if(gameOver == true) { // if(gameOver) doet hetzelfde als if(gameOver == true)
+        if(gameOver == true) {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 2000;
             return finalScore;
