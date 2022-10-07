@@ -1,5 +1,4 @@
 public class Bedroom {
-
     private String name;
     private Wall wall1, wall2, wall3, wall4;
     private Ceiling ceiling;
