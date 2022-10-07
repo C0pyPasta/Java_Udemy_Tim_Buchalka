@@ -23,7 +23,6 @@ public abstract class HeavenlyBody {
 
     }
 
-
     public double getOrbitalPeriod() {
         return orbitalPeriod;
     }
