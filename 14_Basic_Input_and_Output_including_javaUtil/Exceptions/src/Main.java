@@ -1,6 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
 public class Main {
     public static void main(String[] args) {
 //        int x = 98;
@@ -12,7 +13,6 @@ public class Main {
 
         int x = getIntEAFP();
         System.out.println("x is " + x);
-
     }
 
     private static int getInt(){
