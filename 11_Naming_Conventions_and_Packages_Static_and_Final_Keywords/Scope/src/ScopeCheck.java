@@ -35,7 +35,5 @@ public class ScopeCheck {
                 System.out.println(i + " times two is " + i * varThree);
             }
         }
-
     }
-
 }
