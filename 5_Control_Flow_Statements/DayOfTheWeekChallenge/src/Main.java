@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
         getDaysInMonth(7, 2010);
-
         }
 
     public static boolean isLeapYear(int year) {
