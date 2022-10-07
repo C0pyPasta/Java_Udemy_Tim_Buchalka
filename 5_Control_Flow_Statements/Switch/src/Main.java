@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -18,10 +16,8 @@ public class Main {
             case 1:
                 System.out.println("Value was one");
                 break;
-
             case 2:
                 System.out.println("Value was 2");
-
             case 3: case 4: case 5:
                 System.out.println("Was a 3, or a 4, or a 5");
                 System.out.println("Actually it was a " + switchValue);
@@ -31,7 +27,7 @@ public class Main {
                 break;
         }
 
-        char myChar = 'A'; //Let op een char moet altijd tussen enkele quotes
+        char myChar = 'A'; // use single quotes like 'A' for a char
 
         switch (myChar) {
             case 'A':
