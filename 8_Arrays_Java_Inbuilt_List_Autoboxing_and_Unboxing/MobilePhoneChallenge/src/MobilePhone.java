@@ -73,7 +73,6 @@ public class MobilePhone {
             System.out.println("Found " + searchContact + " in our grocery list");
         } else {
             System.out.println(searchContact + " is not in the shopping list");
-
         }
     }
 }
