@@ -33,7 +33,7 @@ public class Main {
         } else {
             break;
         }
-        scanner.nextLine(); // handle enter input
+        scanner.nextLine(); // handle entered input
     }
     System.out.println("min= " + min + ", max= " + max);
     scanner.close();
