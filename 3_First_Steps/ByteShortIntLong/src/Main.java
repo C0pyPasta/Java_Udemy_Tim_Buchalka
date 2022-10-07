@@ -29,15 +29,14 @@ public class Main {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = " + myMinLongValue);
         System.out.println("Long Maximum Value = " + myMaxLongValue);
-        long bigLongLiteralValue = 2_147_483_647_234L; // De L geeft aan dat het een long is anders maakt java er gewoon een Int van die hij in de long stopt
+        long bigLongLiteralValue = 2_147_483_647_234L; // the L stands for Long
         System.out.println(bigLongLiteralValue);
 
         short bigShortLiteralValue = 32767;
 
         int myTotal = (myMinIntValue / 2);
 
-        // java pakt altijd een integer als default / hieronder type casting
-
+        // int is default, typecasting is needed
         byte myNewByteValue = (byte) (myMaxByteValue / 2);
         short myNewShortValue = (short) (myMinShortValue / 2);
 
