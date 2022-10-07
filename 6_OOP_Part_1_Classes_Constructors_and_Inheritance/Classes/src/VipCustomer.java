@@ -3,7 +3,7 @@ public class VipCustomer {
     private double creditlimit;
 
     public VipCustomer() {
-        this("Rudi", "rudi@rudiplast.nl", 2000);
+        this("Bob", "test@testing.com", 2000);
     }
     public VipCustomer(String name, String emailAddress) {
         this(name, emailAddress, 2000);
