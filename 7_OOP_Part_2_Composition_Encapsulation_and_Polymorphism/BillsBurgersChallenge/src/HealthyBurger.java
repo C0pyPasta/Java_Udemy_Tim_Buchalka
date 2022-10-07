@@ -1,7 +1,6 @@
 public class HealthyBurger extends Hamburger{
     private String healthyExtra1Name;
     private double healthyExtra1Price;
-
     private String healthyExtra2Name;
     private double healthyExtra2Price;
 
@@ -18,5 +17,4 @@ public class HealthyBurger extends Hamburger{
         this.healthyExtra2Name = name;
         this.healthyExtra2Price = price;
     }
-
 }
