@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) {
         int count = 1;
         int sum = 0;
-
+        
         Scanner myScanner = new Scanner(System.in);
+        
         while(count <= 10) {
             System.out.println("Enter number #" + count);
-
             boolean hasNextInt = myScanner.hasNextInt();
 
             if(hasNextInt && (myScanner.nextInt() >= 0)){
