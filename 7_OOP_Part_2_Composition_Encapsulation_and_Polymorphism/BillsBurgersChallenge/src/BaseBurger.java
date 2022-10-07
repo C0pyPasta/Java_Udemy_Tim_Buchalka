@@ -1,10 +1,8 @@
 public class BaseBurger {
     private String breadRollType;
     private String meat;
-
     private String name;
     private boolean lettuce, tomato, carrot, cucumber;
-
     private double price;
 
     public BaseBurger(String breadRollType, String meat, double price) {
