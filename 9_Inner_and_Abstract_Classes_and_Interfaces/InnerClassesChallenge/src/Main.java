@@ -40,11 +40,6 @@ public class Main {
         albums.get(1).addToPlaylist(24, playlist); // There is no track 24
 
         play(playlist);
-
-
-
-
-
     }
 
     private static void play(LinkedList<Song> playList){
