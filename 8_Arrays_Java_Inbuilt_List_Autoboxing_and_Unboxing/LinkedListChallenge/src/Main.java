@@ -40,11 +40,6 @@ public class Main {
         albums.get(1).addToPlaylist(24, playlist); // There is no track 24
 
         play(playlist);
-
-
-
-
-
     }
 
     private static void play(LinkedList<Song> playList){
@@ -52,6 +47,7 @@ public class Main {
         boolean quit = false;
         boolean forward = true;
         ListIterator<Song> listIterator = playList.listIterator();
+        
         if(playList.size() == 0) {
             System.out.println("No songs in playlist");
             return;
