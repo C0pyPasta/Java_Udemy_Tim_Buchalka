@@ -1,5 +1,4 @@
 public class Porche extends Car{
-
     private int roadServiceMonths;
 
     public Porche(int roadServiceMonths) {
@@ -8,8 +7,8 @@ public class Porche extends Car{
     }
 
     public void accelerate(int rate) {
-
         int newVelocity = getCurrentVelocity() + rate;
+        
         if(newVelocity == 0) {
             stop();
             changeGear(1);
@@ -26,6 +25,5 @@ public class Porche extends Car{
         if(newVelocity > 0) {
             changeVelocity(newVelocity, getCurrentDirection());
         }
-
     }
 }
