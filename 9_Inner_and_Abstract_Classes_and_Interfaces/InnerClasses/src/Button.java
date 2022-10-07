@@ -22,5 +22,4 @@ public class Button {
     public interface OnClickListener {
         public void onClick(String title);
     }
-
 }
