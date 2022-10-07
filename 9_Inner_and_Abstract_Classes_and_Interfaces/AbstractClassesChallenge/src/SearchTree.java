@@ -1,5 +1,4 @@
 public class SearchTree implements NodeList{
-    // write code here
     private ListItem root = null;
 
     public SearchTree(ListItem root) {
@@ -87,9 +86,9 @@ public class SearchTree implements NodeList{
                 this.root = item.next();
             }
         } else {
-
             ListItem current = item.next();
             ListItem leftmostParent = item;
+            
             while (current.previous() != null) {
                 leftmostParent = current;
                 current = current.previous();
