@@ -17,13 +17,12 @@ public class Demo {
         addInOrder(placesToVisit, "Alice Springs");
         addInOrder(placesToVisit, "Darwin");
         printList(placesToVisit);
-
         visit(placesToVisit);
-
     }
 
     private static void printList(LinkedList<String> linkedList){
         Iterator<String> i= linkedList.iterator();
+        
         while(i.hasNext()){
             System.out.println("Now visiting " + i.next());
         }
@@ -66,6 +65,7 @@ public class Demo {
             System.out.println("Now visiting " + listIterator.next());
             printMenu();
         }
+        
         while(!quit){
             int action = scanner.nextInt();
             scanner.nextLine();
@@ -116,7 +116,5 @@ public class Demo {
                 "1 - go to next city\n" +
                 "2 - go to previous city\n" +
                 "3 - print menu options");
-
     }
-
 }
