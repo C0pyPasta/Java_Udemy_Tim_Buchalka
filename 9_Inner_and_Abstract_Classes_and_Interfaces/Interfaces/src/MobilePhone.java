@@ -1,5 +1,4 @@
 public class MobilePhone implements ITelephone {
-
     private int myNumber;
     private boolean isRinging;
     private boolean isOn = false;
