@@ -2,7 +2,6 @@
 public class Main {
     //Method
     public static void main(String[] args) {
-
         boolean gameOver = true;
         int score = 800;
         int levelCompleted = 5;
@@ -19,7 +18,6 @@ public class Main {
         System.out.println("Your final score was "+ highscore);
 
         //CHALLENGE
-
         String playerName = "Rudi";
         int position = 1;
         displayHighScorePosition(playerName, position);
@@ -28,7 +26,7 @@ public class Main {
         System.out.println("Calculated position is " + calculatedPosition);
 
     }
-    //Method
+
     public static int calculateScore(boolean gameOver, int score, int levelCompleted,int bonus) {  //calculateScore(boolean gameOver, int score, int levelCompleted,int bonus) tussen sde haakjes zijn de parameters
 
         if(gameOver == true) { // if(gameOver) doet hetzelfde als if(gameOver == true)
