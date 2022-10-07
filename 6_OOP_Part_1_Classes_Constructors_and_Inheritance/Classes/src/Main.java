@@ -8,7 +8,7 @@ public class Main {
 //        VipCustomer vipper = new VipCustomer();
 //        System.out.println(vipper.getName());
 //
-//        VipCustomer vipper2 = new VipCustomer("Bob", "flipssen@flippie.nl");
+//        VipCustomer vipper2 = new VipCustomer("Bob", "testing@testing.com");
 //        System.out.println(vipper2.getEmailAddress());
 
         Wall wall = new Wall(5,4);
