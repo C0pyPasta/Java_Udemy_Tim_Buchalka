@@ -42,5 +42,4 @@ public class Account {
         }
         System.out.println("Calculated balance is " + this.balance);
     }
-
 }
