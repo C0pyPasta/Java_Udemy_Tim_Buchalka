@@ -29,7 +29,7 @@ public class Main {
 //        while (number <= finishNumber){
 //            number++;
 //            if(!isEvenNumber(number)) {
-//                continue; //Zorgt ervoor dat ie terug gaat naar "while (number <= finishNumber) zonder de rest (System.out.println("Even number " + number) van de code in het while blok uit te voeren
+//                continue;
 //            }
 //            System.out.println("Even number " + number);
 //        }
@@ -42,7 +42,7 @@ public class Main {
         while (number <= finishNumber){
             number++;
             if(!isEvenNumber(number)) {
-                continue; //Zorgt ervoor dat ie terug gaat naar "while (number <= finishNumber)" (maar blijft wel loopen in plaats van break dat ie uit het code block gaat) zonder de rest (System.out.println("Even number " + number) van de code in het while blok uit te voeren
+                continue;
             }
             System.out.println("Even number " + number);
 
