@@ -50,6 +50,4 @@ public class Monster implements ISaveable{
                 ", strength=" + strength +
                 '}';
     }
-
-
 }
