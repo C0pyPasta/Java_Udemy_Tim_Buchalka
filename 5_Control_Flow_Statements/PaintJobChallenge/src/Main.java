@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+        
         System.out.println("Hello world!");
+        
     }
 
     public static int getBucketCount(double width, double height, double areaPerBucket, int extraBucket) {
@@ -10,6 +12,7 @@ public class Main {
         double areaToPaint = width * height;
         double areaWeCanPaint = areaPerBucket * extraBucket;
         double areaLeftToPaint = areaToPaint - areaWeCanPaint;
+        
         if (areaLeftToPaint < 0) {
             return 0;
         } else {
