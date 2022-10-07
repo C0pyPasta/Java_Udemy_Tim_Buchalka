@@ -1,5 +1,4 @@
 public class Animal {
-
     private String name;
     private int brain;
     private int body;
