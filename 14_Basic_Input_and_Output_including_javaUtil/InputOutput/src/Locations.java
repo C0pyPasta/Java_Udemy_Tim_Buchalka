@@ -1,13 +1,10 @@
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-/**
- * Created by timbuchalka on 2/04/2016.
- */
+
 public class Locations implements Map<Integer, Location> {
     private static Map<Integer, Location> locations = new HashMap<Integer, Location>();
 
@@ -56,7 +53,6 @@ public class Locations implements Map<Integer, Location> {
                 e.printStackTrace();
         }
     }
-
 
     @Override
     public int size() {
