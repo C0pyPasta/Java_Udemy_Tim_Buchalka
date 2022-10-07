@@ -16,7 +16,6 @@ public class Main {
     }
 
     private static int[] readInteger(int count){
-
         int[] array = new int[count];
 
         for(int i=0; i<array.length; i++){
