@@ -1,5 +1,5 @@
-
 import java.util.*;
+
 
 public class Theater {
     private final String theaterName;
@@ -100,5 +100,4 @@ public class Theater {
             return price;
         }
     }
-
 }
