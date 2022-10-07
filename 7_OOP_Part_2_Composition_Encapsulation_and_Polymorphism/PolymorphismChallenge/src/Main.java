@@ -1,5 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
 class Car{
     private boolean engine;
     private int cylinders;
@@ -106,7 +104,7 @@ public class Main {
 
         System.out.println();
 
-    Car car = new Car(8, "Base Car");
+        Car car = new Car(8, "Base Car");
         System.out.println(car.startEngine());
         System.out.println(car.accelerate());
         System.out.println(car.brake());
