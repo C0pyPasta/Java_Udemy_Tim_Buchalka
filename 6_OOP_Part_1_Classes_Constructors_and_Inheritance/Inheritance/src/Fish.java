@@ -1,5 +1,4 @@
 public class Fish extends Animal{
-
     private int gills;
     private int eyes;
     private int fins;
@@ -28,5 +27,4 @@ public class Fish extends Animal{
         moveBackFin();
         super.move(speed);
     }
-
 }
