@@ -18,7 +18,7 @@ public class Main {
         System.out.println("10,000 at 2% interest = " + calculateInterest(10000.0, 4.0));
         System.out.println("10,000 at 2% interest = " + calculateInterest(10000.0, 5.0));
 
-            for(int i=0; i<5; i++) { //for(init; termination; increment)
+            for(int i=0; i<5; i++) { // for(init; termination; increment)
                 System.out.println("Loop " + i + " hello!");
             }
 
