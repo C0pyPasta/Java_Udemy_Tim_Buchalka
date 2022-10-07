@@ -1,7 +1,7 @@
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+
 
 public class Main {
     private static Locations locations = new Locations();
@@ -15,7 +15,7 @@ public class Main {
         //
         // Single letter commands (N, W, S, E, Q) should still be available.
 
-	    Scanner scanner = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
 
         Map<String, String> vocabulary = new HashMap<String, String>();
         vocabulary.put("QUIT", "Q");
@@ -23,7 +23,6 @@ public class Main {
         vocabulary.put("SOUTH", "S");
         vocabulary.put("WEST", "W");
         vocabulary.put("EAST", "E");
-
 
         int loc = 1;
         while(true) {
@@ -58,6 +57,5 @@ public class Main {
                 System.out.println("You cannot go in that direction");
             }
         }
-
     }
 }
