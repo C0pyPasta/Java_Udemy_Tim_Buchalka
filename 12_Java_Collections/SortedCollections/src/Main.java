@@ -45,7 +45,6 @@ public class Main {
         sellItem(timsBasket, "car", 1);
         System.out.println(timsBasket);
 
-
         // My Basket
         Basket rutgersBasket = new Basket("Rutger");
 
