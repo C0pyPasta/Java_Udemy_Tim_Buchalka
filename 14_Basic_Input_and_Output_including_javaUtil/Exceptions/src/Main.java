@@ -47,7 +47,6 @@ public class Main {
         }
     }
 
-
     //LBYL = Look Befor You Leap
     private static int divideLBYL(int x, int y){
         if(y != 0) {
@@ -66,9 +65,8 @@ public class Main {
         }
     }
 
-    //Example thta causes the program to crash
+    //Example that causes the program to crash
     private static int divide(int x, int y){
         return x / y;
     }
-
 }
