@@ -36,5 +36,4 @@ public class Main {
         array[0] = 2;
         array = new int[] {1,2,3,4,5};
     }
-
 }
