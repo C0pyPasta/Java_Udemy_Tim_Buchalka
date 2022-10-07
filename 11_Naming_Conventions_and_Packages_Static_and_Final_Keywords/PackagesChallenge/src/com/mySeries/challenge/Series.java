@@ -35,5 +35,4 @@ public class Series {
         }
         return fib;
     }
-
 }
