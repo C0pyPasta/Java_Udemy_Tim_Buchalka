@@ -71,9 +71,10 @@ public class Main {
         if (isCar == true) {
             System.out.println("This is not supposed to happen");
         }
-        //ternary Operator (?) is operator met drie operands isCar, true en false
+        
+        //a ternary Operator is an Operator with three Operands isCar, true en false in this example
         isCar = true;
-        boolean wasCar = isCar ? true : false; // isCar is deze true dan geeft ie true aan wasCar anders geeft ie false aan wasCar
+        boolean wasCar = isCar ? true : false; // if isCar is true then wasCar gets the value true
         if (wasCar) {
             System.out.println("wasCar is true");
         }
@@ -82,8 +83,10 @@ public class Main {
         double mySecondDouble = 80.00d;
         double addNumbers = ((myFirstDouble + mySecondDouble) * 100d);
         System.out.println(addNumbers);
+        
         double myRemainder = addNumbers % 40.00d;
         System.out.println(myRemainder);
+        
         boolean myBool = (myRemainder == 0.0) ? true : false;
         System.out.println("myBool = " + myBool);
         if (!myBool) {
