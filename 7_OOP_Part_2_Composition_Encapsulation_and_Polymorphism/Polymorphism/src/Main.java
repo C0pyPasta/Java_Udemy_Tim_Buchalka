@@ -1,4 +1,3 @@
-
     class Movie {
         private String name;
 
@@ -65,6 +64,7 @@
 
         // No plot method
     }
+
     public class Main {
 
     public static void main(String[] args) {
