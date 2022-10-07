@@ -10,6 +10,4 @@ public class Customer {
         this.name = name;
         System.out.println("Account made for customer " + name + " with a starting capital of " + transactions.get(0).toString());
     }
-
-
 }
