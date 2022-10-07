@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-    int uitkomst = SumOddRange.sumOdd(1,11);
-        System.out.println(uitkomst);
+    int result = SumOddRange.sumOdd(1,11);
+        System.out.println(result);
     }
 
     public static class SumOddRange {
