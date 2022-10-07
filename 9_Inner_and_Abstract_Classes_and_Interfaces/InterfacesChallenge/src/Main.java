@@ -10,7 +10,7 @@ public class Main {
 
         tim.setHitPoints(8);
         System.out.println(tim);
-        tim.setWeapon("Strombringer");
+        tim.setWeapon("Stormbringer");
         saveObject(tim);
         //loadObject(tim);
         System.out.println(tim);
@@ -59,5 +59,4 @@ public class Main {
         ArrayList<String> values = readValues();
         objectToLoad.read(values);
     }
-
 }
