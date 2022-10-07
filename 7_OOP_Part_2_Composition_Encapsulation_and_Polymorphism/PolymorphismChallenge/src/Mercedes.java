@@ -18,5 +18,3 @@ class Mercedes extends Car{
         return "Mercedes -> brake()";
     }
 }
-
-
