@@ -7,7 +7,6 @@ public class Main {
     }
 
     public static void inputThenPrintSumAndAverage(){
-
         Scanner myScanner = new Scanner(System.in);
 
         double sum = 0;
