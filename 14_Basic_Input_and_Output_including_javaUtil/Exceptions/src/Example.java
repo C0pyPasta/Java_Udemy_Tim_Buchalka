@@ -3,7 +3,6 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Example {
-
     public static void main(String[] args) {
         try {
             int result = divide();
@@ -12,7 +11,6 @@ public class Example {
             System.out.println(e.toString());
             System.out.println("Unable to perform division, autopilot shutting down");
         }
-
     }
 
     private static int divide(){
@@ -42,5 +40,4 @@ public class Example {
             }
         }
     }
-
 }
