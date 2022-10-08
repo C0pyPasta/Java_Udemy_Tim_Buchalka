@@ -4,13 +4,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-
 public class Locations implements Map<Integer, Location> {
     private static Map<Integer, Location> locations = new HashMap<Integer, Location>();
 
     public static void main(String[] args) throws IOException {
-        try(FileWriter locFile = new FileWriter("locations.txt");
-            FileWriter dirFile = new FileWriter("directions.txt")) {
+        try(FileWriter locFile = new FileWriter("locations.txt"); FileWriter dirFile = new FileWriter("directions.txt")) {
             for(Location location : locations.values()) {
                 locFile.write(location.getLocationID() + "," + location.getDescription() + "\n");
                 for(String direction : location.getExits().keySet()) {
@@ -21,8 +19,7 @@ public class Locations implements Map<Integer, Location> {
     }
 
     static {
-
-        try (Scanner scanner = new Scanner(new BufferedReader(new FileReader("locations.txt")))){
+        try (Scanner scanner = new Scanner(new BufferedReader(new FileReader("locations.txt")))) {
             scanner.useDelimiter(",");
             while (scanner.hasNextLine()) {
                 int loc = scanner.nextInt();
@@ -37,14 +34,13 @@ public class Locations implements Map<Integer, Location> {
         }
 
         // Now read the exits
-        try (BufferedReader dirFile = new BufferedReader(new FileReader("directions.txt"))){
+        try (BufferedReader dirFile = new BufferedReader(new FileReader("directions.txt"))) {
             String input;
             while ((input = dirFile.readLine()) != null) {
                 String[] data = input.split(",");
                 int loc = Integer.parseInt(data[0]);
                 String direction = data[1];
                 int destination = Integer.parseInt(data[2]);
-
                 System.out.println(loc + ": " + direction + ": " + destination);
                 Location location = locations.get(loc);
                 location.addExit(direction, destination);
