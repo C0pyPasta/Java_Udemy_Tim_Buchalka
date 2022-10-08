@@ -2,7 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-
 public class Main {
     private static Locations locations = new Locations();
 
@@ -12,7 +11,7 @@ public class Main {
         // The player should be able to type commands such as "Go West", "run South", or just "East"
         // and the program will move to the appropriate location if there is one.  As at present, an
         // attempt to move in an invalid direction should print a message and remain in the same place.
-        //
+	    
         // Single letter commands (N, W, S, E, Q) should still be available.
 
 	Scanner scanner = new Scanner(System.in);
@@ -25,23 +24,23 @@ public class Main {
         vocabulary.put("EAST", "E");
 
         int loc = 1;
-        while(true) {
-            System.out.println(locations.get(loc).getDescription());
-
+       
+	while(true) {
+        System.out.println(locations.get(loc).getDescription());
             if(loc == 0) {
                 break;
             }
-
             Map<String, Integer> exits = locations.get(loc).getExits();
             System.out.print("Available exits are ");
-            for(String exit: exits.keySet()) {
-                System.out.print(exit + ", ");
+            
+	    for(String exit: exits.keySet()) {
+            	System.out.print(exit + ", ");
             }
             System.out.println();
-
             String direction = scanner.nextLine().toUpperCase();
-            if(direction.length() > 1) {
-                String[] words = direction.split(" ");
+            
+	    if(direction.length() > 1) {
+            	String[] words = direction.split(" ");
                 for(String word: words) {
                     if(vocabulary.containsKey(word)) {
                         direction = vocabulary.get(word);
