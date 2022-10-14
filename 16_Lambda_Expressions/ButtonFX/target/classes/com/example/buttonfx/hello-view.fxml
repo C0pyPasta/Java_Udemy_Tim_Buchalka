@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane fx:controller="com.example.buttonfx.HelloController" xmlns:fx="http://javafx.com/fxml"
+            alignment="center" hgap="10" vgap="10">
+    <Button fx:id="clickMeButton" text="Click Me" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+</GridPane>
